@@ -1,0 +1,42 @@
+/* General Design */
+
+* {
+	margin : 0px;
+	padding: 0px;
+	font-family: zilla slab regular;
+	text-decoration: none;
+	
+}
+
+
+html {
+	scroll-behavior: smooth;
+	scroll-snap-type : y mandatory; /*proximity va s'arrêter en "forçant le scroll"*/
+}
+
+body {
+	margin: 0px;
+}
+
+
+.partie_1 {
+	width: 100%;
+	height: 100vh; /*hauteur de réfèrence pour la div*/
+	background-image: url('img/undraw_code_thinking_1jeh.png');
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: center;
+
+}
+
+.titre_1 {
+	position: absolute;
+	right : 1000px;
+}
+
+.partie_2 {
+	width: 100%;
+	height: 100vh;
+	background-image: url('img/undraw_privacy_protection_nlwy.png');
+
+}
