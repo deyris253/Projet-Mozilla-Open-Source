@@ -1,44 +1,42 @@
-                                                                /* general design */
-                                                                
-                                                                * {
-                                                                    margin: 0px;
-                                                                    padding: 0px;
-                                                                    font-family: arial;
-                                                                    text-decoration: none;
-                                                                    text-align: center;
-                                                                    font-size: 40px;
-                                                                }
-                                                                /* header */
-                                                                
-                                                                header {
-                                                                    display: flex;
-                                                                    justify-content: space-between;
-                                                                    text-align: center;
-                                                                    border-bottom: 15px solid black;
-                                                                    background-color: black;
-                                                                    height: 65px;
-                                                                    padding: 50px;
-                                                                }
-                                                                
-                                                                .logo {
-                                                                    width: 10%;
-                                                                    height: 100px;
-                                                                    margin-left: 15px;
-                                                                }
-                                                                
-                                                                .Menu {
-                                                                    display: flex;
-                                                                    margin-right: 50px;
-                                                                    padding-right: 500px;
-                                                                    justify-content: space-between;
-                                                                }
-                                                                
-                                                                li {
-                                                                    font-size: 50px;
-                                                                    color: white;
-                                                                    list-style: none;
-                                                                    margin: 15px;
-                                                                    padding: 10px;
-                                                                    margin-bottom: 30px;
-                                                                    justify-content: space-between;
-                                                                }
+                                          /* general design */
+                                                        
+                                                        * {
+                                                            margin: 0px;
+                                                            padding: 0px;
+                                                            font-family: arial;
+                                                            text-decoration: none;
+                                                            text-align: center;
+                                                            font-size: 40px;
+                                                        }
+                                                        /* header */
+                                                        
+                                                        header {
+                                                            display: flex;
+                                                            width: 100%;
+                                                            justify-content: space-between;
+                                                            padding: 15px;
+                                                            background-color: black;
+                                                        }
+                                                        
+                                                        .logo {
+                                                            width: 10%;
+                                                            height: 100px;
+                                                            margin-left: 35px;
+                                                            padding-top: 80px;
+                                                        }
+                                                        
+                                                        .Menu {
+                                                            display: flex;
+                                                            margin-right: 200px;
+                                                            padding-right: 200px;
+                                                        }
+                                                        
+                                                        li {
+                                                            font-size: 55px;
+                                                            color: white;
+                                                            list-style: none;
+                                                            padding: 50px;
+                                                            margin: 50px;
+                                                        }
+                                                        
+                                                        *
