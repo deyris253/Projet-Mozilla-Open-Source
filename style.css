@@ -1,42 +1,51 @@
                                           /* general design */
-                                                        
-                                                        * {
-                                                            margin: 0px;
-                                                            padding: 0px;
-                                                            font-family: Arial;
-                                                            text-decoration: none;
-                                                            text-align: center;
-                                                            font-size: 40px;
-                                                        }
-                                                        /* header */
-                                                        
-                                                        header {
-                                                            display: flex;
-                                                            width: 100%;
-                                                            justify-content: space-between;
-                                                            padding: 15px;
-                                                            background-color: black;
-                                                        }
-                                                        
-                                                        .logo {
-                                                            width: 10%;
-                                                            height: 100px;
-                                                            margin-left: 35px;
-                                                            padding-top: 80px;
-                                                        }
-                                                        
-                                                        .Menu {
-                                                            display: flex;
-                                                            margin-right: 200px;
-                                                            padding-right: 200px;
-                                                        }
-                                                        
-                                                        li {
-                                                            font-size: 55px;
-                                                            color: white;
-                                                            list-style: none;
-                                                            padding: 50px;
-                                                            margin: 50px;
-                                                        }
-                                                        
-                                                        *
+                                          
+                                          * {
+                                              margin: 0px;
+                                              padding: 0px;
+                                              font-family: Arial;
+                                              text-decoration: none;
+                                              text-align: center;
+                                              font-size: 40px;
+                                          }
+                                          /* header */
+                                          
+                                          header {
+                                              display: flex;
+                                              width: 100%;
+                                              justify-content: space-between;
+                                              padding: 15px;
+                                              background-color: black;
+                                          }
+                                          
+                                          .logo {
+                                              width: 10%;
+                                              height: 100px;
+                                              margin-left: 35px;
+                                              padding-top: 80px;
+                                          }
+                                          
+                                          .Menu {
+                                              display: flex;
+                                              margin-right: 200px;
+                                              padding-right: 200px;
+                                          }
+                                          
+                                          li {
+                                              font-size: 55px;
+                                              color: white;
+                                              list-style: none;
+                                              padding: 50px;
+                                              margin: 50px;
+                                          }
+                                          /* Protection données part */
+                                          
+                                          .titre {
+                                              margin-top: 60px;
+                                              margin-bottom: 40px;
+                                              font-size: 55px;
+                                          }
+                                          
+                                          .argu-1 {
+                                              text-align: jcenter;
+                                          }
