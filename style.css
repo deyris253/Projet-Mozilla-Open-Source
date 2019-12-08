@@ -1,44 +1,122 @@
-                                                  /* general design */
-                                                  
-                                                  * {
-                                                      margin: 0px;
-                                                      padding: 0px;
-                                                      font-family: Arial;
-                                                      text-decoration: none;
-                                                      text-align: center;
-                                                      font-size: 40px;
-                                                  }
-                                                  /* header */
-                                                  
-                                                  header {
-                                                      display: flex;
-                                                      width: 100%;
-                                                      justify-content: space-between;
-                                                      padding: 15px;
-                                                      background-color: black;
-                                                  }
-                                                  
-                                                  .logo {
-                                                      width: 10%;
-                                                      height: 100px;
-                                                      margin-left: 35px;
-                                                      padding-top: 80px;
-                                                  }
-                                                  
-                                                  .Menu {
-                                                      display: flex;
-                                                      margin-right: 200px;
-                                                      padding-right: 200px;
-                                                  }
-                                                  
-                                                  li {
-                                                      font-size: 55px;
-                                                      color: white;
-                                                      list-style: none;
-                                                      padding: 50px;
-                                                      margin: 50px;
-                                                  }
-                                                  /* Titre protection données */
+/* design general */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* header */
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+}
+
+.logo {
+    width: 10%;
+    height: 100px;
+    margin-left: 35px;
+    padding-top: 80px;
+}
+
+.Menu {
+    display: flex;
+    margin-right: 200px;
+    padding-right: 200px;
+}
+
+li {
+    font-size: 55px;
+    color: white;
+    list-style: none;
+    padding: 50px;
+    margin: 50px;
+}
+
+
+/**********************/
+
+
+/**** General Design *****/
+
+
+/**********************/
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    /*proximity va s'arrêter en "forçant le scroll"*/
+}
+
+body {
+    margin: 0px;
+}
+
+
+/********************************/
+
+
+/**** Definition Part ****/
+
+
+/********************************/
+
+.partie_1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/undraw_code_thinking_1jeh.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 50% 80%;
+    display: flex;
+    justify-content: space-between;
+    scroll-snap-align: start;
+}
+
+.titre_1 {
+    padding: 100px 100px;
+    width: 30%;
+    font-size: 50px;
+    color: #000000;
+    /*height: 100px;*/
+}
+
+.definition {
+    width: 30%;
+    padding: 112px 100px;
+    height: 100px;
+    font-size: 20px;
+    /*text-align: center;*/
+}
+
+
+/******************************/
+
+
+/***** Avantages Part *********/
+
+
+/******************************/
+
+
+/*.partie_2 {
+	width: 100%;
+	height: 100vh;
+	background-image: url('img/undraw_privacy_protection_nlwy.png');
+    scroll-snap-align: start;
+
+}
+*/
+
+
+                                  /* Titre protection données */
                                                   
                                                   .titre {
                                                       margin-top: 60px;
@@ -81,3 +159,4 @@
                                                   strong {
                                                       font-size: 70px;
                                                   }
+
