@@ -1,12 +1,12 @@
-/* design general */
+/* General Design */
 
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial;
+    font-family: zilla slab regular;
     text-decoration: none;
     text-align: center;
-    font-size: 40px;
+    font-size: 14px;
 }
 
 
@@ -42,32 +42,109 @@ li {
 }
 
 
-/* Titre protection données */
+/******** Qu'est-ce que l'Open Source ? ***********/
 
-.titre {
-    margin-top: 60px;
-    margin-bottom: 40px;
-    font-size: 55px;
+#partie_1 {
+	width: 100%;
+	height: 100vh;
+	background-image: url('img/undraw_code_thinking_1jeh.png');
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 30% 80%;
+    display: flex;
+    justify-content: space-between;
+    scroll-snap-align: start;
+}
+
+.titre_open_source {
+    padding: 100px 100px; 
+    width : 30%;
+    font-size: 40px;
+    color: #00458B;
+}
+
+.partie_definition {
+    width: 30%;
+    padding: 112px 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.partie_definition p {
+    margin: 0px 20px;
+    /*text-align: center;*/ 
+    font-size: 25px;
+    text-align: center;
+    color: #00458B;
+}
+
+.definition {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #00458B;
 }
 
 
-/* image protection */
 
-.boite {
+
+/*********** Avantages de l'Open Source ***********/
+
+#partie_2 {
     width: 100%;
-    height: 80vh;
-    background-image: url(ressources/photos/protection.png);
-    background-repeat: no-repeat;
-    background-size: 45%;
-    background-position: 50% 80%;
+    height: 85vh;
+    background-color: #E7E5E2;
+    scroll-snap-align: start;
+    border-top: 1px solid black; 
+}
+
+.titre_avantages {
+    margin: 60px auto;
+    width: 30%;
+    text-align: center;
+    font-size: 35px;
+    color: #00458B;
+}                        
+
+.avantages_description {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;
+}                    
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 0px 50px;
 }
 
 
-/* Part Protection données */
+.description img {
+    height: 150px;
+
+}
+
+.description p {
+    /*width: 70%;*/
+    text-align: center;
+    font-size: 25px;
+    color: #00458B;
+
+}
+
+
+
+
+/*************** Part Protection données ***********/
 
 .argu {
     width: 100%;
     height: 35px;
+
 }
 
 .internautes {
@@ -90,9 +167,28 @@ strong {
     font-size: 70px;
 }
 
+/* Titre protection données */
 
-/* Decouvrir nos logiciels */
+.titre {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 55px;
+}
 
+/* image protection */
+
+.boite {
+    width: 100%;
+    height: 80vh;
+    background-image: url(ressources/photos/protection.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: 50% 80%;
+}
+
+
+
+/********** Decouvrir nos logiciels **************/
 .discover {
     margin-top: 80px;
 }
@@ -113,6 +209,7 @@ strong {
     align-items: center;
     justify-content: center;
     margin: 30px 0 0;
+
     >* {
         margin: 0 20px;
     }
@@ -149,3 +246,4 @@ strong {
     background-color: #e7e5e2;
     border-radius: 15px;
 }
+
