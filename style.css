@@ -16,7 +16,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 15px;
+    ;
     background-color: black;
 }
 
@@ -133,19 +133,78 @@ strong {
 /* Les 2 premières fiches des logiciels */
 
 .container {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    width: 750px;
-    height: 1150px;
-    margin: 240px auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 250px 500px;
+    padding-left: 500px;
 }
 
 .content {
-    flex-direction: column;
-    justify-content: space-between;
+    width: 25%;
+    height: 1250px;
+    margin: 0px 300px;
+    flex-direction: row;
     text-align: center;
-    background-color: #e7e5e2;
-    border-radius: 15px;
+    background-color: #959595;
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px gray;
+}
+
+
+/* Fiche Ubuntu */
+
+.premier {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.ubuntu {
+    width: 60%;
+}
+
+.ubun {
+    margin-bottom: -45px;
+}
+
+
+/* logiciel alternatifs à */
+
+.windows {
+    width: 15%;
+}
+
+.altwind {
+    margin-bottom: 30px;
+}
+
+
+/* avantages et fonctions similaires */
+
+h2 {
+    margin-bottom: 25px;
+}
+
+.similitudes {
+    margin-top: 20px;
+}
+
+
+/* fin de la fiche */
+
+.download {
+    width: 13%;
+}
+
+.download,
+.télécharger {
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.télécharger {
+    padding-bottom: 60px;
 }
