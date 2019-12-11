@@ -244,7 +244,7 @@ strong {
 
 .content {
     width: 25%;
-    height: 1250px;
+    height: 1300px;
     margin: 0px 300px;
     flex-direction: row;
     text-align: center;
@@ -261,12 +261,14 @@ strong {
     border-radius: 10px;
 }
 
-.ubuntu {
+.ubuntu,
+.fedora {
     width: 60%;
 }
 
-.ubun {
-    margin-bottom: -45px;
+.ubun,
+{
+    margin-bottom: 45px;
 }
 
 
@@ -277,7 +279,7 @@ strong {
 }
 
 .altwind {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -303,10 +305,55 @@ h2 {
     margin-top: 40px;
     background-color: white;
     border-radius: 40px;
-    margin-right: 50px;
-    margin-left: 50px;
 }
 
 .télécharger {
     padding-bottom: 60px;
+}
+
+
+/* fiche fedora */
+
+.fedora {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+
+/* Logiciels DuckDuckgo */
+
+.deuxième {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.chrome {
+    width: 10%;
+}
+
+
+/* Logiciel brave */
+
+.troisième {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.brave {
+    width: 40%;
+}
+
+.google {
+    width: 10%;
+}
+
+
+/* Logiciels Firefoxsend Etherpad Nextcloud */
+
+.container2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 250px 500px;
+    padding-left: 500px;
 }
