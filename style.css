@@ -79,7 +79,7 @@ li {
     flex-direction: column;
 }
 
-.partie_definition p {
+.traduction {
     margin: 0px 20px;
     /*text-align: center;*/
     font-size: 25px;
@@ -128,12 +128,12 @@ li {
     margin: 20px 100px;
 }
 
-.description img {
+.icone_avantage {
     height: 150px;
     background-color: #E7E5E2;
 }
 
-.description p {
+.avantage {
     /*width: 70%;*/
     margin-block-start: 0em;
     text-align: center;
@@ -186,7 +186,7 @@ strong {
 
 /* image protection */
 
-.boite {
+#boite {
     width: 100%;
     height: 80vh;
     background-image: url(ressources/photos/protection.png);
@@ -278,7 +278,7 @@ strong {
     border-radius: 10px;
 }
 
-<
+
 .ubuntu {
     width: 50%;
 
@@ -286,7 +286,7 @@ strong {
 
 .ubun,
 {
-    margin-bottom: 45px;
+    margin: 45px;
 
 }
 
