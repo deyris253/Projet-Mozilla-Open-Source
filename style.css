@@ -355,5 +355,93 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 250px 500px;
-    padding-left: 500px;
+}
+
+
+/* firefox send */
+
+.quatrième {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.firefoxsend {
+    width: 60%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.googledrive {
+    width: 10%;
+    margin-top: 10px;
+}
+
+
+/* etherpad */
+
+.etherpad {
+    width: 50%;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.googledoc {
+    width: 10%;
+}
+
+
+/* Nextcloud */
+
+.nextcloud {
+    width: 36%;
+}
+
+.dropbox {
+    width: 12%;
+}
+
+
+/* Thunderbird */
+
+.cinquième {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.thunderbird {
+    width: 65%;
+    margin-top: 40px;
+}
+
+.gmail {
+    width: 10%;
+}
+
+
+/* Diaspora */
+
+.sixième {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.diaspora {
+    width: 25%;
+    margin-top: 10px;
+}
+
+.fb {
+    width: 10%;
+}
+
+
+/* Aether */
+
+.aether {
+    width: 55%;
+    margin-top: 15px;
+}
+
+.reddit {
+    width: 25%;
 }
