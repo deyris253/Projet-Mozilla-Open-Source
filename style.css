@@ -261,7 +261,7 @@ strong {
 
 .content {
     width: 25%;
-    height: 1250px;
+    height: 1300px;
     margin: 0px 300px;
     flex-direction: row;
     text-align: center;
@@ -278,14 +278,22 @@ strong {
     border-radius: 10px;
 }
 
-.ubun {
-    margin-bottom: -45px;
-}
 
-
-.image_logiciel {
+.ubuntu,
+.fedora {
     width: 60%;
 }
+
+.ubun,
+{
+    margin-bottom: 45px;
+
+}
+
+
+/* .image_logiciel {
+    width: 60%;
+} */
 
 
 
@@ -297,7 +305,7 @@ strong {
 }
 
 .altwind {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -323,10 +331,143 @@ h2 {
     margin-top: 40px;
     background-color: white;
     border-radius: 40px;
-    margin-right: 50px;
-    margin-left: 50px;
 }
 
 .télécharger {
     padding-bottom: 60px;
+}
+
+
+/* fiche fedora */
+
+.fedora {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+
+/* Logiciels DuckDuckgo */
+
+.deuxième {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.chrome {
+    width: 10%;
+}
+
+
+/* Logiciel brave */
+
+.troisième {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.brave {
+    width: 40%;
+}
+
+.google {
+    width: 10%;
+}
+
+
+/* Logiciels Firefoxsend Etherpad Nextcloud */
+
+.container2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 250px 500px;
+}
+
+
+/* firefox send */
+
+.quatrième {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.firefoxsend {
+    width: 60%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.googledrive {
+    width: 10%;
+    margin-top: 10px;
+}
+
+
+/* etherpad */
+
+.etherpad {
+    width: 50%;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.googledoc {
+    width: 10%;
+}
+
+
+/* Nextcloud */
+
+.nextcloud {
+    width: 36%;
+}
+
+.dropbox {
+    width: 12%;
+}
+
+
+/* Thunderbird */
+
+.cinquième {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.thunderbird {
+    width: 65%;
+    margin-top: 40px;
+}
+
+.gmail {
+    width: 10%;
+}
+
+
+/* Diaspora */
+
+.sixième {
+    background-color: #54ffbd;
+    border-radius: 10px;
+}
+
+.diaspora {
+    width: 25%;
+    margin-top: 10px;
+}
+
+.fb {
+    width: 10%;
+}
+
+
+/* Aether */
+
+.aether {
+    width: 55%;
+    margin-top: 15px;
+}
+
+.reddit {
+    width: 25%;
 }
