@@ -202,6 +202,7 @@ strong {
     /*margin-top: 80px;*/
     margin: 50px auto;
     width: 80%;
+    height: 
     text-align: center;
     font-size: 35px;
 }
@@ -229,24 +230,22 @@ strong {
 
 
 
-/* Logiciels */
+/* Catégories des logiciels */
 
 .liste {
-
-    margin-bottom : 500px;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: 50px auto;
 }
 
-
-
-
-
-.same {
+.liste p {
+    font-size: 25px;
     color: #000000;
-    text-decoration: none;
-    display: inline-flex;
-    font-size: 20px;
     margin: 20px 10px;
 }
+
+
 
 
 /**** Les 2 premières fiches des logiciels ****/
@@ -291,9 +290,7 @@ strong {
 }
 
 
-/* .image_logiciel {
-    width: 60%;
-} */
+
 
 
 
@@ -536,4 +533,15 @@ h2 {
 
 .reddit {
     width: 25%;
+}
+
+
+.tous,
+.systeme_exploit,
+.gestion_contenu,
+.moteur_recherche,
+.navigateur,
+.reseaux_sociaux,
+.messagerie {
+    cursor : pointer;
 }
