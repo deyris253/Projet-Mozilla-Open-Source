@@ -441,5 +441,7 @@ a {
 .internet,
 .messagerie,
 .reseaux_sociaux {
-    cursor: pointer;
+    cursor : pointer;
+    
+    
 }
