@@ -242,8 +242,32 @@ strong {
 
 .liste p {
     font-size: 25px;
-    color: #000000;
+    color: black;
     margin: 20px 10px;
+    font-weight: 600;
+}
+
+
+ .tous:hover {
+    border-bottom: 4px solid black;
+   
+}
+.systeme_exploit:hover {
+    border-bottom: 4px solid black;
+}
+
+.gestion_contenu:hover {
+     border-bottom: 4px solid black;
+}
+
+.internet:hover {
+    border-bottom: 4px solid black;
+}
+.messagerie:hover {
+    border-bottom: 4px solid black;
+}
+.reseaux_sociaux:hover {
+border-bottom: 4px solid black;
 }
 
 /****** Menu des catégories cliquable ********/
