@@ -40,12 +40,15 @@ nav {
 }
 
 li {
-    font-size: 20px;
-    color: white;
     list-style: none;
     justify-content: center;
     font-weight: bold;
     padding: 20px;
+}
+
+li a {
+    color: #FFFFFF;
+    font-size: 20px;
 }
 
 
@@ -248,8 +251,11 @@ strong {
 }
 
 
+
+/********** Menu des catégories **********/
+
  .tous:hover {
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #FFFFFF;
    
 }
 .systeme_exploit:hover {
@@ -270,7 +276,7 @@ strong {
 border-bottom: 4px solid black;
 }
 
-/****** Menu des catégories cliquable ********/
+
 
 .tous,
 .systeme_exploit,
@@ -487,4 +493,16 @@ footer {
     background-color: #000000;
 }
 
+footer li {
+    color: #FFFFFF;
+    font-size: 20px;
+    list-style: none;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+footer li a {
+    
+}
 
