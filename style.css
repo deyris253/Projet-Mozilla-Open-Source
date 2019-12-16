@@ -18,6 +18,12 @@ header {
     width: 100%;
     height: 70px;
     background-color: #000000;
+    position: fixed;
+}
+
+.false-div {
+    height: 70px;
+    width: 100%;
 }
 
 .logo {
@@ -183,7 +189,7 @@ strong {
 
 #boite {
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     background-image: url(ressources/photos/protection.png);
     background-repeat: no-repeat;
     background-size: 45%;
@@ -236,27 +242,30 @@ strong {
     font-weight: 600;
 }
 
- .tous:hover {
+.tous:hover {
     border-bottom: 4px solid black;
-   
 }
+
 .systeme_exploit:hover {
     border-bottom: 4px solid black;
 }
 
 .gestion_contenu:hover {
-     border-bottom: 4px solid black;
+    border-bottom: 4px solid black;
 }
 
 .internet:hover {
     border-bottom: 4px solid black;
 }
+
 .messagerie:hover {
     border-bottom: 4px solid black;
 }
+
 .reseaux_sociaux:hover {
-border-bottom: 4px solid black;
+    border-bottom: 4px solid black;
 }
+
 
 /**** Carte Type des logiciels ****/
 
