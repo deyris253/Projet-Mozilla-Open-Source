@@ -49,12 +49,12 @@ li {
     list-style: none;
     justify-content: center;
     font-weight: bold;
-    padding: 20px;
+    padding: 22px;
 }
 
 li a {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -277,26 +277,14 @@ strong {
 
 }
 
-.systeme_exploit:hover {
-    border-bottom: 4px solid black;
-}
-
-.gestion_contenu:hover {
-    border-bottom: 4px solid black;
-}
-
-.internet:hover {
-    border-bottom: 4px solid black;
-}
-
-.messagerie:hover {
-    border-bottom: 4px solid black;
-}
-
+.systeme_exploit:hover,
+.gestion_contenu:hover,
+.internet:hover,
+.messagerie:hover,
 .reseaux_sociaux:hover {
+
     border-bottom: 4px solid black;
 }
-
 
 
 
@@ -306,6 +294,7 @@ strong {
 .internet,
 .reseaux_sociaux,
 .messagerie {
+
     cursor : pointer;
 }
 
@@ -333,36 +322,56 @@ strong {
 }
 
 .categorie_fiche {
-    background-color: #00ffff;
+    background-color: #54ffbd;
     border-radius: 10px;
-    /*color: #FFFFFF;*/
+    width: 70%;
+    padding: 5px;
+    /*font-weight: bold;*/
 }
 
 
 /* Logiciel Alternatif à */
 
 .alt {
-    display: inline-flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    margin: 0px auto 20px;
+    /*text-align: center;*/
+}
+
+.alt p {
+    font-weight: bold;
+
+}
+
+.alt img {
+    margin: 0px auto;
 }
 
 
 /* Avantages et Fonctions Similaires */
 
 h2 {
-    margin-bottom: 15px;
-    border-radius: 10px;
+    margin: 0px 0px 10px 12px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.texte {
+    margin: 0px 8px 10px;
+    text-align: left;
 }
 
 .fonctions {
-    margin: 20px auto;
+    margin-bottom: 30px; 
 }
 
-
-.fonctions p {
-    margin-bottom: 30px;
-    
+a {
+    font-weight: bold;
 }
 
 
@@ -374,10 +383,11 @@ h2 {
 
 .télécharger {
     background-color: #FFFFFF;
-    /*color: #FFFFFF;*/
+    color: #000000;
     border-radius: 40px;
-    margin: 30px auto;
+    /*margin: 30px auto;*/
     padding: 15px;
+    font-size: 15px;
 }
 
 
@@ -390,7 +400,7 @@ h2 {
 }
 
 .windows {
-    width: 15%;
+    width: 20%;
 }
 
 
@@ -410,7 +420,7 @@ h2 {
 }
 
 .google_search {
-    width: 10%;
+    width: 15%;
 }
 
 
@@ -422,7 +432,7 @@ h2 {
 }
 
 .google {
-    width: 10%;
+    width: 15%;
 }
 
 
@@ -434,7 +444,7 @@ h2 {
 }
 
 .googledrive {
-    width: 10%;
+    width: 15%;
 }
 
 
@@ -446,7 +456,7 @@ h2 {
 }
 
 .googledoc {
-    width: 10%;
+    width: 15%;
 }
 
 
@@ -458,7 +468,7 @@ h2 {
 }
 
 .dropbox {
-    width: 12%;
+    width: 15%;
 }
 
 
@@ -473,7 +483,7 @@ h2 {
 }
 
 .gmail {
-    width: 10%;
+    width: 15%;
 }
 
 
@@ -485,7 +495,7 @@ h2 {
 }
 
 .fb {
-    width: 10%;
+    width: 15%;
 }
 
 
@@ -497,7 +507,7 @@ h2 {
 }
 
 .reddit {
-    width: 25%;
+    width: 30%;
 }
 
 
@@ -513,10 +523,9 @@ footer {
 
 footer li {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 16px;
     list-style: none;
     justify-content: center;
-    font-weight: bold;
     padding: 20px;
 }
 
