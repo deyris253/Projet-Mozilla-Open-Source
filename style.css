@@ -46,12 +46,15 @@ nav {
 }
 
 li {
-    font-size: 22px;
-    color: white;
     list-style: none;
-    /*margin-left: 15%;*/
+    justify-content: center;
     font-weight: bold;
     padding: 20px;
+}
+
+li a {
+    color: #FFFFFF;
+    font-size: 20px;
 }
 
 
@@ -59,7 +62,7 @@ li {
 
 #partie_1 {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background-image: url('img/undraw_code_thinking_1jeh.png');
     background-repeat: no-repeat;
     background-size: 40%;
@@ -103,14 +106,16 @@ li {
 
 #partie_2 {
     width: 100%;
-    height: 85vh;
+    height: 70vh;
     background-color: #E7E5E2;
     scroll-snap-align: start;
-    border-top: 1px solid black;
+    /*border-top: 1px solid black;*/
+    /*margin: 20px auto;*/
+
 }
 
 .titre_avantages {
-    margin: 60px auto;
+    margin: 30px auto;
     width: 30%;
     text-align: center;
     font-size: 35px;
@@ -121,8 +126,7 @@ li {
     width: 100%;
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
-    /*margin: 0px;*/
+    margin-bottom: 0px;
 }
 
 .description {
@@ -139,7 +143,7 @@ li {
 
 .avantage {
     /*width: 70%;*/
-    margin-block-start: 0em;
+    /*margin-block-start: 0em;*/
     text-align: center;
     font-size: 25px;
     color: #00458B;
@@ -147,37 +151,55 @@ li {
 }
 
 
-/* Titre protection données */
-
-.titre {
-    margin-top: 30px;
-    margin-bottom: 40px;
-    font-size: 25px;
-}
 
 
 /********** Partie Protection données *********/
 
-.argu {
+
+.protection {
     width: 100%;
+    height: 100vh;
+    background-image: url(ressources/photos/protection.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 180%;
+    /*margin: 30px auto;*/
+}
+
+.titre {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.chiffres {
+    width: 100%;
+    display: flex;
+    margin: 170px auto;
+    justify-content: space-around;
+    
+}
+
+.argu {
+    /*width: 100%;*/
     height: 35px;
-    margin-bottom: 50px;
+    margin: 30px auto;
+    font-size: 18px;
 }
 
 .internautes {
-    text-align: right;
+    /*text-align: right;
     text-align-last: center;
     margin-top: 100px;
-    margin-left: 450px;
-    /*padding-left: 650px;*/
+    margin-left: 450px;*/
 }
 
 .français {
-    width: 40%;
+   /* width: 40%;
     text-align: left;
     text-align-last: center;
     margin-bottom: 100px;
-    margin-left: 80px;
+    margin-left: 80px;*/
 }
 
 strong {
@@ -185,7 +207,7 @@ strong {
 }
 
 
-/* image protection */
+
 
 #boite {
     width: 100%;
@@ -195,6 +217,7 @@ strong {
     background-size: 45%;
     background-position: 50% 80%;
 }
+
 
 
 /********** Découvrir nos logiciels ***********/
@@ -226,7 +249,8 @@ strong {
 }
 
 
-/* Catégories des logiciels */
+
+/******** Catégories des logiciels **********/
 
 .liste {
     display: flex;
@@ -242,8 +266,15 @@ strong {
     font-weight: 600;
 }
 
+
 .tous:hover {
     border-bottom: 4px solid black;
+
+
+
+/********** Menu des catégories **********/
+
+
 }
 
 .systeme_exploit:hover {
@@ -265,6 +296,20 @@ strong {
 .reseaux_sociaux:hover {
     border-bottom: 4px solid black;
 }
+
+
+
+
+.tous,
+.systeme_exploit,
+.gestion_contenu,
+.internet,
+.reseaux_sociaux,
+.messagerie {
+    cursor : pointer;
+}
+
+
 
 
 /**** Carte Type des logiciels ****/
@@ -322,11 +367,11 @@ h2 {
 }
 
 .fonctions p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 
-/* Fin de la Carte */
+/**** Fin de la Carte Type ****/
 
 .download {
     width: 8%;
@@ -336,14 +381,11 @@ h2 {
     background-color: #005e5e;
     color: #FFFFFF;
     border-radius: 40px;
-    margin: 20px;
-    padding: 10px;
+    margin: 30px auto;
+    padding: 15px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
+
 
 
 /* Fiche Ubuntu */
@@ -464,13 +506,27 @@ a {
 }
 
 
-/* Menu cliquable */
+/***************** Footer *****************/
 
-.tous,
-.systeme_exploit,
-.gestion_contenu,
-.internet,
-.messagerie,
-.reseaux_sociaux {
-    cursor: pointer;
+footer {
+    display: flex;
+    /*justify-content: space-around;*/
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
 }
+
+footer li {
+    color: #FFFFFF;
+    font-size: 20px;
+    list-style: none;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+footer li a {
+    
+}
+
+
